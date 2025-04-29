@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Local Django settings (если есть)
+local_settings.py
+
+# SQLite database files
+*.sqlite3
+
+# Media/uploads (если у тебя есть папка для загружаемых файлов)
+media/
+uploads/
+
+# Static files (если генерируются через collectstatic)
+staticfiles/
+static/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# PyCharm specific
+.idea/
+*.iml
+
+# VSCode (на всякий случай, вдруг откроешь)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pipenv
+Pipfile.lock
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Secrets
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
