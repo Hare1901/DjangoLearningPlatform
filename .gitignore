@@ -31,7 +31,7 @@ ENV/
 .venv/
 
 # PyCharm specific
-.idea/
+.idea
 *.iml
 
 # VSCode (на всякий случай, вдруг откроешь)

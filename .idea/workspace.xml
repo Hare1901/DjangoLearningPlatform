@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67f0b5a3-28d5-4663-aeaa-e7bb29f71887" name="Changes" comment="Приложение для курсов" />
+    <list default="true" id="67f0b5a3-28d5-4663-aeaa-e7bb29f71887" name="Changes" comment="Приложение для курсов">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLearningPlatform/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLearningPlatform/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLearningPlatform/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLearningPlatform/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cousrses/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cousrses/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cousrses/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cousrses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cousrses/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cousrses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +107,8 @@
       <option name="presentableId" value="Default" />
       <updated>1745898145159</updated>
       <workItem from="1745898146246" duration="589000" />
-      <workItem from="1745898828247" duration="332000" />
+      <workItem from="1745898828247" duration="793000" />
+      <workItem from="1746335572098" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="Приложение для курсов">
       <option name="closed" value="true" />
