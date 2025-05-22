@@ -55,7 +55,7 @@ ROOT_URLCONF = 'DjangoLearningPlatform.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / 'courses/templates']
         ,
         'APP_DIRS': True,
         'OPTIONS': {
