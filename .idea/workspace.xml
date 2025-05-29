@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67f0b5a3-28d5-4663-aeaa-e7bb29f71887" name="Changes" comment="FEAT: Модель для 4 основных видов контента, через общий абстрактный класс">
-      <change afterPath="$PROJECT_DIR$/courses/fields.py" afterDir="false" />
+    <list default="true" id="67f0b5a3-28d5-4663-aeaa-e7bb29f71887" name="Changes" comment="FEAT: Создали аутентификачию для CMS">
+      <change afterPath="$PROJECT_DIR$/courses/templates/courses/manage/course/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/templates/courses/manage/course/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/courses/templates/courses/manage/course/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,12 +57,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Django Server.DjangoLearningPlatform.executor&quot;: &quot;Run&quot;,
     &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
     &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -69,6 +75,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sadci\PycharmProjects\DjangoLearningPlatform\courses" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="DjangoLearningPlatform" type="Python.DjangoServer" factoryName="Django server">
       <module name="DjangoLearningPlatform" />
@@ -119,7 +130,9 @@
       <workItem from="1746683639872" duration="321000" />
       <workItem from="1746934174403" duration="1570000" />
       <workItem from="1747112624291" duration="1083000" />
-      <workItem from="1747539471237" duration="1982000" />
+      <workItem from="1747539471237" duration="2088000" />
+      <workItem from="1747884910612" duration="2196000" />
+      <workItem from="1748489300350" duration="1653000" />
     </task>
     <task id="LOCAL-00001" summary="Приложение для курсов">
       <option name="closed" value="true" />
@@ -169,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747113055216</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="FEAT: Создали кастомное поле для определения очередности в модели курсов">
+      <option name="closed" value="true" />
+      <created>1747541565302</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747541565302</updated>
+    </task>
+    <task id="LOCAL-00008" summary="FEAT: Создали аутентификачию для CMS">
+      <option name="closed" value="true" />
+      <created>1747886426110</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747886426110</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +211,8 @@
     <MESSAGE value="FEAT: Админ панель для классов Course, Subject, Module" />
     <MESSAGE value="FEAT: Модель для мультиконтента в модулях" />
     <MESSAGE value="FEAT: Модель для 4 основных видов контента, через общий абстрактный класс" />
-    <option name="LAST_COMMIT_MESSAGE" value="FEAT: Модель для 4 основных видов контента, через общий абстрактный класс" />
+    <MESSAGE value="FEAT: Создали кастомное поле для определения очередности в модели курсов" />
+    <MESSAGE value="FEAT: Создали аутентификачию для CMS" />
+    <option name="LAST_COMMIT_MESSAGE" value="FEAT: Создали аутентификачию для CMS" />
   </component>
 </project>
